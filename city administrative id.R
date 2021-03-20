@@ -1,3 +1,6 @@
+# China_administrative-division-codes£¨1980-2019£©
+# https://github.com/hezht3/
+
 require(rvest)
 require(dplyr)
 require(haven)
