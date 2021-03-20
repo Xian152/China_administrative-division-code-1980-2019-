@@ -1,4 +1,4 @@
-# China_administrative-division-codes£¨1980-2019£©
+# China_administrative-division-codesÂ£Â¨1980-2019Â£Â©
 # https://github.com/hezht3/
 
 require(rvest)
@@ -52,7 +52,7 @@ for(year in c(1983:1985, 1988:2012)) {
   colnames(city_code_year[[year]]) <- c("id", "city")
 }
 
-## year 1986 - 1987
+## year 1986 - 1987: clean data to dataset
 for(year in c(1986, 1987)) {
   city_code <- city_code_year[[year]]
   city_code <- as.data.frame(city_code[8:(nrow(city_code)-393), ])
