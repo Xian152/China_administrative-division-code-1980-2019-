@@ -7,7 +7,7 @@ require(haven)
 
 website <- readRDS("F:/Box Sync/air polution/pilot analysis/China_administrative-division-codes/China administrative codes of each year_original website.rds")
 
-city_code_year <- list()
+city_code_year <- list() 
 
 
 # year 2017 - 2019: read data from html and clean to dataset
